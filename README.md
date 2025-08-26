@@ -32,7 +32,7 @@ Create a PostgreSQL database named propertydb and update application.properties 
 
 Build and run the application:
 
-Test the API endpoints:
+### Test the API endpoints:
 
 GET /api/properties → list all properties
 
@@ -42,7 +42,7 @@ PUT /api/properties/{id} → update a property
 
 DELETE /api/properties/{id} → delete a property
 
-Project Structure
+### Project Structure
 src/
  ├── main/java/com/example/propertyapi
  │   ├── model/        # Entity classes
@@ -52,14 +52,14 @@ src/
      └── application.properties
 
 
-Learning Outcomes
+### Learning Outcomes
 Hands-on experience with Spring Boot and Hibernate
 
 Implemented RESTful API design
 
 Practiced database integration and CRUD operations
 
-Next Steps
+### Next Steps
 Add unit tests with JUnit and Mockito
 Implement authentication & authorization
 Containerize with Docker
